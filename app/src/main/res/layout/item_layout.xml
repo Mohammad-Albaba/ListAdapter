@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        tools:src="@drawable/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_gravity="bottom"
+        android:textColor="@android:color/white"
+        tools:text="This is just a Tittle"
+        android:padding="16dp"
+        android:background="#A000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:id="@+id/image_view_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@drawable/ic_baseline_map_24" />
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:id="@+id/image_view_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_baseline_zoom_out_map_24" />
+</FrameLayout>
+
+
